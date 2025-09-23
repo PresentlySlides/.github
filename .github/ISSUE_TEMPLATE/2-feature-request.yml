@@ -1,0 +1,31 @@
+name: Feature request
+description: Request a new feature to be added
+title: '[Feature]: '
+type: Feature
+body:
+  - type: textarea
+    attributes:
+      label: What is the feature you'd like?
+      description: Please provide as much detail as possible.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Why do you want this feature to be made?
+      description: Please explain the problem you were having that prompted this request.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: What other features could solve your problem?
+      description: Please provide as much detail as possible.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Concept Art
+      description: If you made any concept art, upload it and place it here.
+  - type: textarea
+    attributes:
+      label: Other Information/Context
+      description: If there's anything you'd like to add, put it here.

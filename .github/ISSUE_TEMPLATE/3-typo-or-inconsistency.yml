@@ -1,0 +1,17 @@
+name: Typo/formatting inconsistency
+description: Report any inconsistencies or typos
+title: '[Typo]: '
+type: Typo
+body:
+  - type: input
+    attributes:
+      label: What page has the inconsistency?
+      description: Paste the URL or relative path.
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: What is the typo or inconsistency?
+      description: Provide as much info as you think is needed.
+    validations:
+      required: true

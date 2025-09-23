@@ -1,0 +1,66 @@
+name: Bug report
+description: Report a problem or unexpected behavior
+title: '[Bug]: '
+type: Bug
+body:
+  - type: textarea
+    attributes:
+      label: What is the bug?
+      description: Please fill this out in detail.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: What did you expect to happen?
+      description: Please fill this out in detail.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: How can the bug be reproduced?
+      description: Please provide detailed steps.
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: What platform are you running this on?
+      description: Also answer with any other platforms you tested this bug on.
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: What version of the software are you running this on?
+      description: Also answer with any other versions you tested this bug on.
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: If you know a fix, what is it?
+      description: >-
+        Leave blank if you don't know a fix. Feel free to submit a pull request
+        if you already made it.
+  - type: textarea
+    attributes:
+      label: Videos/Screenshots
+      description: Upload any videos or screenshots you have of the bug.
+  - type: textarea
+    attributes:
+      label: Other Information/Context
+      description: If there's anything else you'd like to add, put it here.
+  - type: dropdown
+    attributes:
+      label: Is this a security vulnerability?
+      description: Read below for more information.
+      options:
+        - 'No'
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: >-
+        > [!CAUTION]
+
+        > Do not report ANY security vulnerabilities through issues. Please read
+        [the security
+        guidelines](https://github.com/PresentlySlides/.github/blob/main/SECURITY.md)
+        for more information.

@@ -1,0 +1,23 @@
+name: Inaccurate/outdated info
+description: Report any inaccurate or outdated info (mainly for docs)
+title: '[Inaccurate Info]: '
+type: Inaccurate Info
+body:
+  - type: input
+    attributes:
+      label: What page has the inaccurate info?
+      description: Paste the URL or relative path.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: What info is inaccurate?
+      description: Please describe what info is inaccurate and how.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: How should it be corrected?
+      description: Please describe what info would be correct.
+    validations:
+      required: true

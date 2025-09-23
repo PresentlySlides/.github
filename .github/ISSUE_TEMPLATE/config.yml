@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Documentation
+    url: https://presently.ianhorler.dev/docs
+    about: Check here to see if you can fix your issue yourself
+  - name: Community Support
+    url: https://github.com/orgs/PresentlySlides/discussions/categories/general-support
+    about: If you're having trouble with something, ask here first
+  - name: Kanban & Priorities
+    url: https://github.com/orgs/PresentlySlides/projects/1
+    about: Check here to see things people have already brought to our attention

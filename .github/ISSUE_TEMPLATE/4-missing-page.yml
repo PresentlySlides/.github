@@ -1,0 +1,21 @@
+name: Missing/empty page
+description: Report any missing or empty pages (mainly for docs)
+title: '[Missing Page]: '
+type: Missing Page
+body:
+  - type: input
+    attributes:
+      label: What page is missing/empty?
+      description: >-
+        If it's a missing page, describe what it would be. If it's an empty
+        page, paste its URL or relative path.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: What info is needed?
+      description: >-
+        Please describe what info needs to be added in as much detail as
+        possible.
+    validations:
+      required: true
